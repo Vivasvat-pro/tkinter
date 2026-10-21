@@ -1,0 +1,10 @@
+from tkinter import *
+window = Tk()
+window.title("sample frame")
+window.geometry("400x200")
+f1 = Frame(master=window)
+f1.pack()
+btn = Button(master=f1, text="Click me!",fg = "red")
+btn.pack()
+f2 = Frame(master=window, bg="yellow",height=100,width=200)
+f2.pack()
